@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(156, 156, 156);
+    font-family: sans-serif;
+}
+
+.parent {
+    box-sizing: border-box;
+    width: 600px;
+    height: auto;
+
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    padding: 2.5rem 0 3.5rem 0;
+    box-shadow: 14px 10px 15px 2px #5b5c5b;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border: 2px dotted gray;
+    border-radius: 75px;
+    object-fit: cover;
+}
+
+.title {
+    width: fit-content;
+    margin: 25px auto;
+    font-size: 28px;
+    border-bottom: 8px solid lightgray;
+    color: #4c4d4c;
+    border-radius: 8px;
+}
+
+.desc {
+    text-align: center;
+    color: #4c4d4c;
+}
+
+.social {
+    height: 60px;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.social img {
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
